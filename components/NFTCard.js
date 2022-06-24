@@ -31,6 +31,9 @@ const navigation = useNavigation();
 
          <CircleButton imgUrl={assets.heart} right={10} top={10} />
       </View>
+      
+      <SubInfo />
+
     </View>
   )
 }
