@@ -4,6 +4,8 @@ import { useNavigation } from '@react-navigation/native'
 import { COLORS , SHADOWS, SIZES, FONTS , assets} from '../constants'
 import { CircleButton , RectButton } from './Button'
 
+import { NFTtitle , EthPrice , SubInfo } from './SubInfo'
+
 
 const NFTCard = ({ data }) => {
 const navigation = useNavigation();
