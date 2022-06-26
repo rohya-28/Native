@@ -3,7 +3,7 @@ import { View, Text , Image , TextInput } from 'react-native'
 import { COLORS , SHADOWS, SIZES, FONTS , assets} from '../constants'
 
 
-const HomeHeder = ({onSearch}) => {
+const HomeHeder = ({ onSearch }) => {
   return (
     <View>
       <View style={{
